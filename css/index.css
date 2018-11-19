@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Spicy+Rice');
-@import url("https://fonts.googleapis.com/css?family=Anton" rel="stylesheet");
 
 body 
 {
 	min-width: 220px;
     max-width: 980px;
-	background: url(http://99px.ru/sstorage/86/2017/04/11904171049591459.gif) fixed;
+	background: url(../content/img/background.gif) fixed;
 	-moz-background-size: 100%; 
 	-webkit-background-size: 100%;
 	-o-background-size: 100%; 
@@ -14,7 +13,6 @@ body
 .second-background
 {
 	background: rgba(255, 255, 255, 0.4);
-	width: 100%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -74,7 +72,7 @@ nav .main-menu
 {
 	width: 100%;
     font-size: 16px;
-	padding :  2%;
+	padding: 2%;
 	text-align: center;
 	justify-content: space-around;
 }
@@ -248,13 +246,12 @@ article .margin-best-tours
 article	.main-best-tours
 {
 	background: rgba(255, 255, 255, 0.2);
-	min-height: 100px;
+	min-height: 320px;
 	width: 100%;
 	margin-top: -1%;
 }
 article .line-best-tours
 {
-    font-size: 5px;
 	margin-left: 2%;
 	margin-right: 2%;
 }
@@ -568,6 +565,10 @@ footer form div .client-email
 {
 	flex: 1;
 }
+footer	.main-second-footer
+{
+	margin-top: -2%;;
+}
 }
 @media (min-width: 400px) 
 {
@@ -592,9 +593,19 @@ header
     margin-top: -3%;
 	min-height: 65px;
 }
+section .container-best-tours 
+{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+}
 footer	.main-first-footer
 {
 	margin-top: -2%;
+}
+footer	.main-second-footer
+{
+	margin-top: -1%;;
 }
 }
 @media (min-width: 600px) 
@@ -642,6 +653,22 @@ nav section .main-menu
 	padding: 0%;
 
 }
+footer	.main-second-footer
+{
+	margin-top: -1%;
+	display: flex;
+}
+footer .first-footer
+{
+	flex: 1;
+	font-size: 7px;
+    justify-content: space-around;
+    align-items: space-around;
+	text-align: space-around;
+	padding: 0%;
+
+}
+}
 [class^="scroll"] 
 {
 	height: 450px;
@@ -665,20 +692,6 @@ header
 {
     margin-top: -1%;
 	min-height: 90px;
-}
-nav section
-{
-    display: flex;
-}
-nav section .main-menu 
-{
-	flex: 1;
-	font-size: 7px;
-    justify-content: space-around;
-    align-items: space-around;
-	text-align: space-around;
-	padding: 0%;
-
 }
 [class^="scroll"] 
 {
@@ -727,5 +740,9 @@ main
 footer	.main-first-footer
 {
 	margin-top: -1%;
+}
+footer	.main-second-footer
+{
+	margin-top: 0%;;
 }
 }
