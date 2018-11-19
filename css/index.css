@@ -593,12 +593,6 @@ header
     margin-top: -3%;
 	min-height: 65px;
 }
-section .container-best-tours 
-{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 5px;
-}
 footer	.main-first-footer
 {
 	margin-top: -2%;
@@ -647,27 +641,34 @@ nav section .main-menu
 {
 	flex: 1;
 	font-size: 7px;
-    justify-content: space-around;
-    align-items: space-around;
-	text-align: space-around;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	padding: 0%;
 
 }
-footer	.main-second-footer
+article .margin-best-tours
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+}
+section .container-best-tours 
+{
+}
+footer section .main-second-footer
 {
 	margin-top: -1%;
 	display: flex;
 }
-footer .first-footer
+footer section .first-footer
 {
 	flex: 1;
 	font-size: 7px;
-    justify-content: space-around;
-    align-items: space-around;
+	justify-content: space-around;
+	align-items: space-around;
 	text-align: space-around;
 	padding: 0%;
-
-}
 }
 [class^="scroll"] 
 {
