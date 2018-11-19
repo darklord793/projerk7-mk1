@@ -713,6 +713,16 @@ footer	.main-first-footer
 }
 @media (min-width: 850px) 
 {
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.second-background
+{
+	margin-left: auto;
+	margin-right: auto;
+}
 header
 {
     margin-top: -1%;
