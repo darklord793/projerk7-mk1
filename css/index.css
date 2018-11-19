@@ -528,6 +528,7 @@ footer	.main-second-footer
 	width: 100%;
 	margin-top: -2%;
 	height: 30px;
+	margin-top: -3%;;
 }
 footer .line-second-footer
 {
@@ -585,6 +586,10 @@ footer	.main-first-footer
 {
 	margin-top: -3%;
 }
+footer	.main-second-footer
+{
+	margin-top: -3%;;
+}
 }
 @media (min-width: 500px) 
 {
@@ -625,6 +630,10 @@ footer	.main-first-footer
 {
 	margin-top: -1%;
 }
+footer	.main-second-footer
+{
+	margin-top: -3%;;
+}
 }
 @media (min-width: 650px) 
 {
@@ -652,9 +661,6 @@ article .margin-best-tours
 	display: grid;
 	grid-template-columns: 1fr 1fr;
     grid-column-gap: 5px;
-}
-section .container-best-tours 
-{
 }
 footer section .main-second-footer
 {
@@ -686,6 +692,10 @@ footer	.main-first-footer
 {
 	margin-top: -1%;
 }
+footer	.main-second-footer
+{
+	margin-top: -3%;;
+}
 }
 @media (min-width: 750px) 
 {
@@ -709,6 +719,10 @@ header
 footer	.main-first-footer
 {
 	margin-top: -1%;
+}
+footer	.main-second-footer
+{
+	margin-top: -3%;;
 }
 }
 @media (min-width: 850px) 
@@ -754,6 +768,6 @@ footer	.main-first-footer
 }
 footer	.main-second-footer
 {
-	margin-top: 0%;;
+	margin-top: -3%;;
 }
 }
